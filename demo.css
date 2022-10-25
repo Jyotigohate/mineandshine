@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Titillium Web ;
+}
+/* :root{
+} */
+/* hover on sidenav// grid-area */
+/* h2 h3{
+    color: blue;
+} */
+span{
+    color: rgb(102, 101, 101);
+    font-size:large;
+}
+p{
+    font-size: larger;
+}
+.icon{
+    font-size:larger;
+    color:rgb(68, 68, 117) ;
+ margin: 0 15px 0 0 ;
+}
+.main {
+    display: grid;
+    width: 100%;
+    height: 230px;
+    grid-template-rows: 1.5fr 3.5fr 2fr;
+    grid-template-columns:1fr repeat(3, 1fr) 1fr;
+}
+main>section{
+    margin: 15px;
+}
+/* sidebar start */
+.sidebar {
+    background-color: rgb(243, 237, 237);
+    grid-row: 1/4;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logo{
+    font-size: x-large;
+}
+.logo>i{
+    color:rgb(68, 68, 117);
+    padding: 8px;
+    border: solid 2px rgb(250, 167, 111);
+    border-radius: 8px;
+}
+.logo>h1{
+    display: inline;
+    font-size:x-large;
+    font-weight:bold ;
+    margin: 2px 5px;
+    color:rgb(68, 68, 117);
+}
+.sidenav ul{
+    padding: 15px 0px;
+list-style-type:none;
+}
+.sidenav li{
+    margin: 15px 0;
+}
+.sidenav li a{
+    text-decoration: none;
+    padding: 8px;
+}
+/* .sidenav li:hover {
+    color: rgb(68, 68, 117);
+ 
+} */
+/* sidebar end */
+/* dashnav start */
+.dashnav {
+    grid-column: 2/5;
+}
+.dashnav-item{
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+.dashicon{
+    padding: 8px;
+    font-size: larger;
+    border: solid 2px rgb(250, 172, 2);
+    border-radius: 8px;
+    justify-content: space-between;
+
+}
+/* dashnav ends */
+.searchbar{
+    display: flex;
+}
+.search-btn{
+    font-size: large;
+    color: rgb(68, 68, 117);
+    border: solid 1px rgb(250, 167, 111);
+}
+.baricon{
+    font-size:larger;
+}
+/* search end */
+
+.alldetail{
+    grid-column: 2/5;  
+}
+.detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-flow: column;
+    gap: 15px;
+}
+.billion{
+    padding: 30px;
+    background-color: rgb(243, 237, 237);
+    grid-row: 1/3;
+    grid-column: 1/3;
+    display: flex;
+    justify-content:space-around;
+    gap:40px;
+    
+}
+.billion>span{
+    font-size: xx-large;
+}
+.money{
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.light1{
+    position: relative;
+    top: -30px;
+}
+.light2{
+    position: relative;
+    top: -20px;
+}.light3{
+    position: relative;
+    top: -10px;
+}.light4{
+    position: relative;
+    top: -20px;
+}
+.bitcoin-icon{
+    color: rgb(68, 68, 117);
+    font-size:100px;
+    padding: 30px;
+}
+.wallet{
+    border: 2px solid black;
+    padding: 10px;
+    display: grid;
+    place-items: center;
+}
+.usd{
+   grid-row: 1/4;
+    background-color: rgb(178, 147, 207);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 5px;
+   
+}
+.usd>p{
+    padding: 20px;
+    border: 2px solid rgb(68, 68, 117);
+    padding: 10px;
+}
+.media {
+   margin-top: 56px;
+   margin-left: 0;
+    background-color: rgb(188, 228, 203);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap:30px
+}
+.media-item{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.media-icon{
+    padding: 8px;
+    font-size: xx-large;
+    border: solid 2px rgb(250, 172, 2);
+    border-radius: 8px;
+    justify-content: space-between;
+}
+.security {
+    margin-top: 0;
+    margin-right: 15px;
+    grid-column: 2/4;
+    background-color: rgb(215, 241, 181);
+}
+.status {
+    margin-top: 0;
+   margin-left: 0;
+    grid-column: 4/6;
+    background-color: rgb(204, 127, 64);
+}
+
