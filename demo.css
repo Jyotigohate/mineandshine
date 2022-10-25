@@ -72,6 +72,25 @@ list-style-type:none;
     color: rgb(68, 68, 117);
  
 } */
+.device{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+.device-icon {
+    width: 20%;
+    background: rgb(170, 58, 58);
+    text-align: center;
+    align-content: center;
+   padding: 15px;
+}
+.dot3{
+    align-items: center;
+    text-align: center;
+    width: 20%;
+    background: rgb(170, 58, 58);
+}
 /* sidebar end */
 /* dashnav start */
 .dashnav {
