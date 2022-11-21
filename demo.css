@@ -41,18 +41,16 @@ main>section{
     flex-direction: column;
     justify-content: space-between;
 }
-.logo{
-    font-size: x-large;
-}
-.logo>i{
+.sidebar-icon{
+    font-size:2em;
     color:rgb(68, 68, 117);
     padding: 8px;
-    border: solid 2px rgb(250, 167, 111);
+    border: solid 1px rgb(250, 167, 111);
     border-radius: 8px;
 }
-.logo>h1{
+.logo-text{
     display: inline;
-    font-size:x-large;
+    font-size:2em;
     font-weight:bold ;
     margin: 2px 5px;
     color:rgb(68, 68, 117);
@@ -65,31 +63,49 @@ list-style-type:none;
     margin: 15px 0;
 }
 .sidenav li a{
+    font-size:large;
     text-decoration: none;
     padding: 8px;
-}
-/* .sidenav li:hover {
     color: rgb(68, 68, 117);
- 
-} */
+}
+.sidenav li a:hover{
+    font-size: larger;
+   color:  rgb(250, 167, 111);
+}
 .device{
     display: flex;
     justify-content: space-between;
-    align-content: center;
-
 }
 .device-icon {
+    font-size: larger;
     width: 20%;
-    background: rgb(170, 58, 58);
+    color:rgb(68, 68, 117);
+    background: rgb(224, 223, 223);
     text-align: center;
-    align-content: center;
-   padding: 15px;
+   padding: 12px;
+}
+.greendot{
+    padding: 5px;
+    font-size: 0.5em;
+    color: rgb(93, 180, 93);
 }
 .dot3{
-    align-items: center;
-    text-align: center;
+    font-size: larger;
+    color:rgb(68, 68, 117);
+    background: rgb(224, 223, 223);
+    padding: 10px 20px;
+    place-self: center;
     width: 20%;
-    background: rgb(170, 58, 58);
+
+}
+.login{
+    margin: 10px;
+    color:rgb(68, 68, 117); 
+    font-size:1.5em;
+    font-weight: bold;
+}
+.login:hover{
+    color:rgb(250, 167, 111); ;
 }
 /* sidebar end */
 /* dashnav start */
